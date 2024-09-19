@@ -37,14 +37,14 @@ table {
 }
 .sidebar {
 	margin-left: 75%;
-	padding: 15px;
+	padding: 20px;
 	background: #E9F5FE;
 }
 body {
 	color: #B1967C;
 	 font-family: "Pacifico", cursive;
-	 padding-top: 115px;
-	 background: #CDE6FF url(bg_body.png) repeat-x;
+	 padding-top: 150px;
+	 background: #CDE6FF url(body.png) repeat-x;
 	 max-width: 800px;
 	 margin: 0 auto;
 	
@@ -63,7 +63,7 @@ h1 {
  .main h2 {
 	 color: #E8A064;
 	 border-bottom: 2px white solid;
-	 background: url(bullet_flower.png) no-repeat;
+	 background: url(star.png) no-repeat;
 	 padding: 0 0 2px 80px;
  }
  .main p {
