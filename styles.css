@@ -1,31 +1,3 @@
-@font-face {
-  font-family: 'PTSans';
-  src: url('fonts/PTSansRegular.woff2') format('woff2'),
-       url('fonts/PTSansRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url('fonts/PTSansItalic.woff2') format('woff2'),
-       url('fonts/PTSansItalic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url('fonts/PTSansBold.woff2') format('woff2'),
-       url('fonts/PTSansBold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PTSans';
-  src: url('fonts/PTSansBoldItalic.woff2') format('woff2'),
-       url('fonts/PTSansBoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-} 
 /* сброс стилей браузера */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
@@ -56,74 +28,64 @@ table {
 	border-spacing: 0;
 } 
 /* конец кода сброса стилей браузера */
-html {
-	font-family: PTSans, Arial, sans-serif;
+
+body {
 	font-size: 62.5%;
-	background: rgb(255,238,253) url(../images/pink.png) repeat-x;
 }
-.main {
-	max-width: 760px;
-	margin: 0 auto;
-	padding: 0 10px;
-	border: 4px solid white;
-	background: transparent url(../images/boke.jpg) no-repeat;
+
+.content {
+	margin: 15px;
+	border: 1px dashed #999;
+	border-bottom: none;
 }
-.main h1 {
-	color: rgb(249,212,120);
-	font-family: "Arial Black", Arial, Helvetica, sans-serif;
-	font-size: 4em;
-	text-shadow: 4px 4px 6px rgb(0,0,0,.75);
+h1 {
+	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #999;
+	padding: 5px 0 5px 8px;
+	color: #14556b;
 }
-.main h1 strong {
-	font-size: 150px;
-	color: white;
-	line-height: 1;
-	margin-right: -0.5em;
+p {
+	font: 1.6em/160% Georgia, "Times New Roman", Times, serif;
+	margin: 10px 8px;
 }
-.main h2 {
-	font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 3.5em;
-  color: rgb(37,76,143);
-  border-bottom: 1px solid rgb(200,200,200);
-  margin-top: 25px;
-}
-.main h3 {
-	color: rgb(241,47,6);
-	font-size: 1.9em;
-	font-weight: bold;
+.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
 	text-transform: uppercase;
-	margin-top: 25px;
-	margin-bottom: 10px;
+	color: #666666;
+	margin: 0px;
+	padding-left: 8px;
+	border-top: 1px dashed #999;
+	clear: both;
 }
-.main p {
-	font-size: 1.8em;
-	line-height: 1.5;
-	margin-left: 150px;
-	margin-right: 50px;
-	margin-bottom: 10px;
-}
-.main p::first-line {
-	font-weight: bold;
-	color: rgb(153,153,153);
-}
-.main ul {
-	margin: 50px 0 25px 50px;
-	width: 25%;
+/* пользовательские стили  */
+img.figure {
 	float: right;
+	margin: 15px 10px;
+	border: 1px solid #666;
+	background-color: #CCC;
+	padding: 10px;
 }
-.main li {
-	color: rgb(32,126,191);
-	font-size: 1.5em;
-	margin-bottom: 7px;
+figure {
+	float: right;
+	width: 222px;
+	margin: 15px 10px 5px 10px;
 }
-.main .byline {
-	font-size: 1.6em;
-	margin: 5px 0 25px 50px;
+figure img {
+	border: 1px solid #666;
+	background-color: #CCC;
+	padding: 10px;
 }
-.main .byline strong {
-	color: rgb(32,126,191);
-	text-transform: uppercase;
-	margin-left: 11px;
+figure figcaption {
+	font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: center;
+	background-image: linear-gradient(to bottom, #e6f3ff, white);
+	border: 1px dashed #666;
+	padding: 5px;
+	margin-top: -3px;
 }
+
+
+
+
